@@ -1,0 +1,23 @@
+.list-main {
+  margin-top: 2rem;
+}
+
+.list-main h2 {
+  text-align: center;
+}
+
+.list-container {
+  margin: 3rem;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  justify-content: center;
+  gap: 1.5rem;
+}
+
+.portugues {
+  background-color: #D6EAF8;
+}
+
+.matematica {
+  background-color: #F1948A;
+}
