@@ -1,14 +1,12 @@
-import { Header } from '../../components/Header/Header';
-import './CreateTeacherPage.css';
+import './FormTeacher.css';
 
-export const CreateTeacherPage = () => {
+export const FormTeacher = () => {
   const handleCreateTeacher = () => {
     console.log('Salvou');
   };
 
   return (
     <>
-      <Header />
       <main className="create-teacher-main">
         <h2>Cadastre um professor</h2>
         <form onSubmit={handleCreateTeacher}>
