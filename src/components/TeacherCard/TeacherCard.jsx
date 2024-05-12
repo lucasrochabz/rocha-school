@@ -1,18 +1,12 @@
 import './TeacherCard.css';
 
-export const TeacherCard = () => {
+export const TeacherCard = ({ teacher: { nome, materia, turno } }) => {
   return (
     <>
-      <div className="teacher-card portugues">
-        <p>Nome do professor: João</p>
-        <p>Matéria: Português</p>
-        <p>Turno: Tarde</p>
-      </div>
-
-      <div className="teacher-card matematica">
-        <p>Nome do professor: João</p>
-        <p>Matéria: Matemática</p>
-        <p>Turno: Tarde</p>
+      <div className="teacher-card">
+        <p>Nome do professor: {nome}</p>
+        <p>Matéria: {materia}</p>
+        <p>Turno: {turno}</p>
       </div>
     </>
   );
