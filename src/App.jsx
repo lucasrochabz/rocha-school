@@ -6,7 +6,7 @@ import { FormTeacherPage } from './pages/FormTeacherPage/FormTeacherPage';
 export const App = () => {
   return (
     <>
-      <FormTeacherPage />
+      <ListPage />
     </>
   );
 };

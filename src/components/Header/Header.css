@@ -6,6 +6,11 @@
   align-items: center;
 }
 
+.logo {
+  color: #fff;
+  border-bottom: 2px solid #000;
+}
+
 .header ul {
   list-style: none;
   display: flex;

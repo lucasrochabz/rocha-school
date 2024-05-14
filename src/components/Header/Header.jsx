@@ -4,7 +4,7 @@ export const Header = () => {
   return (
     <>
       <header className="header">
-        <h2>Rocha School</h2>
+        <h2 className="logo">Rocha School</h2>
         <nav>
           <ul>
             <li>
