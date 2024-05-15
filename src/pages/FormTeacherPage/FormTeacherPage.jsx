@@ -24,7 +24,7 @@ export const FormTeacherPage = () => {
     <>
       <Header />
       <main className="create-teacher-main">
-        <h2>Cadastre um professor</h2>
+        <h2>Cadastrar Professores</h2>
         {/* <form onSubmit={handleCreateTeacher}> */}
         <div className="input-teacher">
           <label htmlFor="nome">Nome do professor:</label>
