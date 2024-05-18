@@ -6,7 +6,8 @@ export const HomePage = () => {
     <>
       <Header />
       <main className="home-main">
-        <h2>A melhor do mundo!</h2>
+        <h2>Rocha School</h2>
+        <h2>Construímos o seu futuro com bases sólidas.</h2>
       </main>
     </>
   );
