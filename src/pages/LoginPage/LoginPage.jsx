@@ -10,10 +10,10 @@ export const LoginPage = () => {
         {/* <form onSubmit={handleCreateTeacher}> */}
         <div className="input-register">
           <label htmlFor="email">Email:</label>
-          <input type="text" name="email" id="email" />
+          <input type="text" name="email" id="email" placeholder='exemplo@email.com'/>
 
           <label htmlFor="senha">Senha:</label>
-          <input type="password" name="senha" id="turno" />
+          <input type="password" name="senha" id="turno" placeholder='Insira sua senha'/>
 
           <button
             // type="submit"

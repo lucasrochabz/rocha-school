@@ -28,13 +28,13 @@ export const FormTeacherPage = () => {
         {/* <form onSubmit={handleCreateTeacher}> */}
         <div className="input-teacher">
           <label htmlFor="nome">Nome do professor:</label>
-          <input type="text" name="nome" id="nome" />
+          <input type="text" name="nome" id="nome" placeholder='Nome do Professor' />
 
           <label htmlFor="materia">Materia:</label>
-          <input type="text" name="materia" id="materia" />
+          <input type="text" name="materia" id="materia" placeholder='Matéria' />
 
           <label htmlFor="turno">Turno:</label>
-          <input type="text" name="turno" id="turno" />
+          <input type="text" name="turno" id="turno" placeholder='Turno' />
 
           <button
             // type="submit"
