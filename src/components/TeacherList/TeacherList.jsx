@@ -3,12 +3,7 @@ import { Link } from 'react-router-dom';
 
 import './TeacherList.css';
 
-export const TeacherList = () => {
-  const teachers = [
-    { nome: 'Pedro', materia: 'Biologia', turno: 'Noite' },
-    { nome: 'Maria', materia: 'Matemática', turno: 'Manhã' },
-  ];
-
+export const TeacherList = ({ teachers }) => {
   return (
     <>
       <main className="list-main">
