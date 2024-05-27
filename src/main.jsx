@@ -7,7 +7,7 @@ import { HomePage } from './pages/HomePage/HomePage.jsx';
 import { LoginPage } from './pages/LoginPage/LoginPage.jsx';
 import { RegisterPage } from './pages/RegisterPage/RegisterPage.jsx';
 import { ListPage } from './pages/ListPage/ListPage.jsx';
-import { FormTeacherPage } from './pages/FormTeacherPage/FormTeacherPage.jsx';
+import { RegisterTeacherPage } from './pages/RegisterTeacherPage/RegisterTeacherPage.jsx';
 // import './index.css';
 
 const router = createBrowserRouter([
@@ -29,7 +29,7 @@ const router = createBrowserRouter([
   },
   {
     path: '/cadastrar-professor',
-    element: <FormTeacherPage />,
+    element: <RegisterTeacherPage />,
   },
 ]);
 
