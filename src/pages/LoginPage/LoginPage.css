@@ -1,5 +1,13 @@
 .create-register-main {
-  margin-top: 2rem;
+  width: 600px;
+  height: 100%;
+  /* position: absolute; */
+  margin: auto;
+}
+
+.register-content {
+  padding: 2rem;
+  border: 2px solid red;
 }
 
 .create-register-main h2 {
