@@ -1,7 +1,12 @@
+body {
+  background-color: blue;
+  height: 100vh;
+}
+
 .create-register-main {
   width: 600px;
-  height: 100%;
   /* position: absolute; */
+  background-color: #f7f7f7;
   margin: auto;
 }
 
