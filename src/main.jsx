@@ -13,8 +13,7 @@ import { RegisterTeacherPage } from './pages/RegisterTeacherPage/RegisterTeacher
 const router = createBrowserRouter([
   {
     path: '/',
-    // element: <HomePage />,
-    element: <LoginPage />,
+    element: <HomePage />,
   },
   {
     path: '/login',
