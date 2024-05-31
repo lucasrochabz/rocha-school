@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom';
-import './Header.css';
 import { LoginPage } from '../../pages/LoginPage/LoginPage';
 import { useState } from 'react';
+import './Header.css';
 
 export const Header = () => {
   const [openModal, setOpenModal] = useState(false);
@@ -20,7 +20,7 @@ export const Header = () => {
             </li>
             <li>
               {/* <Link to="/login">Login</Link> */}
-              <button onClick={() => setOpenModal(true)}>Login</button>
+              <button className='btnHeader' onClick={() => setOpenModal(true)}>Login</button>
             </li>
             <li>
               <Link to="/logado">Logado</Link>
@@ -28,7 +28,7 @@ export const Header = () => {
           </ul>
         </nav>
       </header>
-      
+
       <LoginPage isOpen={openModal} setModalOpen={() => setOpenModal(!openModal)} />
     </>
   );

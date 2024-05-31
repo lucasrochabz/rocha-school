@@ -28,3 +28,17 @@
   padding: 0.8rem 1.2rem;
   border-radius: 4px;
 }
+
+.btnHeader {
+  padding: 0.8rem 1.2rem;
+  border-radius: 4px;
+  background-color: #000;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.btnHeader:hover {
+  background-color: #fff;
+  color: #000;
+}

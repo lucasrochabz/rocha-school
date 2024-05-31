@@ -1,6 +1,5 @@
 import { useState } from 'react';
 import { Header } from '../../components/Header/Header';
-import { LoginPage } from '../LoginPage/LoginPage';
 import './HomePage.css';
 
 export const HomePage = () => {

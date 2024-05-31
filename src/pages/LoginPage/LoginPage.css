@@ -19,28 +19,30 @@
   border-radius: 10px;
 }
 
-.create-register-main h2 {
+.create-register-content h2 {
   text-align: center;
 }
 
-.input-register {
+.form-login-container {
   display: flex;
   flex-direction: column;
-  max-width: 60%;
   margin: 2rem auto;
 }
 
-.input-register label {
+.form-login-container input {
+  font-size: 1.2rem;
+  padding: 0.4rem 0.8rem;
+  border-radius: 4px;
+  margin-bottom: 1rem;
+}
+
+.form-login-container label {
+  font-size: 0.8rem;
   font-weight: bold;
 }
 
-.input-register input {
-  margin-bottom: 2rem;
-  font-size: 1.2rem;
-  padding: 0.4rem 0.8rem;
-}
-
 .btn-save-register {
+  margin-top: 1rem;
   background-color: green;
   border: none;
   padding: 0.8rem 1.2rem;
@@ -49,4 +51,25 @@
   justify-content: center;
   font-size: 1.2rem;
   cursor: pointer;
+}
+
+.btn-save-register:hover {
+  opacity: 0.9;
+}
+
+.btnClose {
+  position: fixed;
+  top: 0;
+  right: 0;
+  padding: 0.4rem 0.8rem;
+  border: 1px solid #000;
+  background-color: red;
+  color: #fff;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.btnClose:hover {
+  background-color: #fff;
+  color: red;
 }

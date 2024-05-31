@@ -8,7 +8,7 @@ export const LoginPage = ({ isOpen, setModalOpen }) => {
           <div className="create-register-content">
             <h2>Faça o login</h2>
             {/* <form onSubmit={handleCreateTeacher}> */}
-            <div className="input-register">
+            <div className="form-login-container">
               <label htmlFor="email">Email:</label>
               <input
                 type="text"
@@ -33,7 +33,7 @@ export const LoginPage = ({ isOpen, setModalOpen }) => {
               </button>
             </div>
             {/* </form> */}
-          <button onClick={setModalOpen}>Fechar Modal</button>
+          <button className='btnClose' onClick={setModalOpen}>Fechar Modal</button>
           </div>
         </main>
       </>
