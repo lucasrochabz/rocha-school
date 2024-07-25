@@ -12,11 +12,12 @@ export const ListPage = () => {
     setTeachers(data);
     console.log(teachers);
   };
-
+  
   useEffect(() => {
     loadTeachers();
   }, []);
 
+  
   return (
     <>
       <Header />
